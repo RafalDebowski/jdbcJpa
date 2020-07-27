@@ -67,7 +67,7 @@ public class JDBCMain {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306?serverTimezone=UTC",
                     "root",
-                    "Rafal2101");
+                    "*****");
         } catch (Throwable throwables) {
             System.out.println(throwables.getMessage());
         }
